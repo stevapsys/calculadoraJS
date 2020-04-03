@@ -1,0 +1,110 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vw;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+
+}
+
+#calculadora {
+    background-color: rgb(228, 179, 228);
+    width: 520px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+    border: 0.3mm ridge rgba(170, 50, 220, .6);
+}
+
+.visor {
+    height: 40px;
+    width: 85%;
+    background-color: rgb(172, 235, 228);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.5mm ridge rgba(8, 138, 120, 0.6);
+
+}
+
+
+
+.visor div {
+    width: 60%;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.teclas {
+    background-color: violet;
+    color: ivory;
+    padding: 15px 30px;
+    width: 80px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: opacity 0.3s;
+    border: 0.2mm solid rgba(170, 50, 220, .6);
+
+}
+
+
+.CE {
+    background-color: violet;
+    color: ivory;
+    padding: 15px 30px;
+    width: 80px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: opacity 0.3s;
+    border: 0.2mm solid rgba(170, 50, 220, .6);
+
+}
+
+.igual {
+    background-color: violet;
+    color: ivory;
+    padding: 15px 30px;
+    width: 80px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: opacity 0.3s;
+    border: 0.2mm solid rgba(170, 50, 220, .6);
+
+}
+
+.teclas:hover {
+    opacity: 0.6;
+}
+
+.botoes {
+    margin: 3px;
+}
